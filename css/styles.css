@@ -146,3 +146,12 @@ h1 {
   color: var(--alternative-color);
   background-color: var(--active-link-color);
 }
+
+.project {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.description {
+  color: var(--contact-color);
+}
