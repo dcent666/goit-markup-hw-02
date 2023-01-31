@@ -10,6 +10,7 @@ body {
   --alternative-color: rgb(255, 255, 255);
   --background-color: rgb(47, 48, 58);
   --alternative-color-transparent: rgba(255, 255, 255, 60%);
+  --portfolio-button-color: rgb(245, 244, 250)
 }
 
 .logo {
@@ -63,7 +64,7 @@ h1 {
   background-color: var(--background-color);
 }
 
-button {
+.index-button {
   font-family: inherit;
   font-size: 1rem;
   font-weight: 700;
@@ -129,4 +130,19 @@ button {
 .contact-details:hover,
 .contact-details:focus {
   color: var(--active-link-color);
+}
+
+.portfolio-button {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  color: inherit;
+  background-color: var(--portfolio-button-color);
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--alternative-color);
+  background-color: var(--active-link-color);
 }
