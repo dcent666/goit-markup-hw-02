@@ -57,7 +57,7 @@ body {
   color: var(--active-link-color);
 }
 
-h1 {
+.hero {
   font-size: 2.75rem;
   font-weight: 900;
   color: var(--alternative-color);
