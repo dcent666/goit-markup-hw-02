@@ -9,6 +9,7 @@ body {
   --contact-color: rgb(117, 117, 117);
   --alternative-color: rgb(255, 255, 255);
   --background-color: rgb(47, 48, 58);
+  --alternative-color-transparent: rgba(255, 255, 255, 60%);
 }
 
 .logo {
@@ -23,11 +24,11 @@ body {
   color: var(--active-link-color);
 }
 
-.blue-logo {
+.active-logo {
   color: var(--active-link-color)
 }
 
-.sites {
+.no-decoration-list {
   list-style: none;
 }
 
@@ -71,16 +72,12 @@ button {
   cursor: pointer;
 }
 
-.lorem-ipsum-list {
-  list-style: none;
-}
-
 .lorem-ipsum-header {
   font-size: 0.875rem;
   font-weight: 700;
 }
 
-.lorem-ipsum-list-item {
+.lorem-ipsum-item {
   font-size: 0.875rem;
   color: var(--contact-color);
 }
@@ -90,10 +87,6 @@ button {
   font-weight: 700;
 }
 
-.images-list {
-  list-style: none;
-}
-
 .name {
   font-size: 1rem;
   font-weight: 500;
@@ -101,4 +94,39 @@ button {
 
 .profession {
   color: var(--contact-color);
+}
+
+.alternative-logo {
+  color: var(--alternative-color);
+}
+
+.alternative-logo:hover,
+.alternative-logo:focus {
+  color: var(--active-link-color);
+}
+
+.contact-data {
+  font-style: inherit;
+  font-size: 0.875rem;
+  background-color: var(--background-color);
+}
+
+.city {
+  text-decoration: none;
+  color: var(--alternative-color);
+}
+
+.city:hover,
+.city:focus {
+  color: var(--active-link-color);
+}
+
+.contact-details {
+  text-decoration: none;
+  color: var(--alternative-color-transparent);
+}
+
+.contact-details:hover,
+.contact-details:focus {
+  color: var(--active-link-color);
 }
