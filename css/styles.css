@@ -7,11 +7,13 @@ body {
   --logo-color: rgb(0, 0, 0);
   --active-link-color: rgb(33, 150, 243);
   --contact-color: rgb(117, 117, 117);
+  --alternative-color: rgb(255, 255, 255);
+  --background-color: rgb(47, 48, 58);
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-size: 26px;
+  font-size: 1.625rem;
   text-decoration: none;
   color: var(--logo-color);
 }
@@ -30,7 +32,8 @@ body {
 }
 
 .single-site {
-  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: 500;
   text-decoration: none;
   color: inherit;
 }
@@ -41,7 +44,8 @@ body {
 }
 
 .contact {
-  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: 500;
   text-decoration: none;
   color: var(--contact-color);
 }
@@ -49,4 +53,52 @@ body {
 .contact:hover,
 .contact:focus {
   color: var(--active-link-color);
+}
+
+h1 {
+  font-size: 2.75rem;
+  font-weight: 900;
+  color: var(--alternative-color);
+  background-color: var(--background-color);
+}
+
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--alternative-color);
+  background-color: var(--active-link-color);
+  cursor: pointer;
+}
+
+.lorem-ipsum-list {
+  list-style: none;
+}
+
+.lorem-ipsum-header {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.lorem-ipsum-list-item {
+  font-size: 0.875rem;
+  color: var(--contact-color);
+}
+
+.section-header {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.images-list {
+  list-style: none;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.profession {
+  color: var(--contact-color);
 }
