@@ -1,4 +1,52 @@
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  color: rgb(33, 33, 33);
+}
+
+:root {
+  --logo-color: rgb(0, 0, 0);
+  --active-link-color: rgb(33, 150, 243);
+  --contact-color: rgb(117, 117, 117);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  text-decoration: none;
+  color: var(--logo-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--active-link-color);
+}
+
+.blue-logo {
+  color: var(--active-link-color)
+}
+
+.sites {
+  list-style: none;
+}
+
+.single-site {
+  font-size: 14px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.single-site:hover,
+.single-site:focus {
+  color: var(--active-link-color);
+}
+
+.contact {
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--contact-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--active-link-color);
 }
