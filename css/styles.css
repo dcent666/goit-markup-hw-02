@@ -144,7 +144,6 @@ body {
   font-family: inherit;
   font-size: 1rem;
   font-weight: 500;
-  color: inherit;
   background-color: var(--portfolio-button-color);
   cursor: pointer;
 }
